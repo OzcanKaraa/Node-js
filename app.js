@@ -1,1 +1,1 @@
-console.log("Merhaba");
+console.log(window);
