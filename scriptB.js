@@ -1,7 +1,7 @@
-var Lname = 'Kara';
-console.log(Lname);
-
-console.log(window);
+//var Lname = 'Kara';
+//console.log(global.Lname);
+console.log(global);
+// console.log(window);
 
 
 /*
@@ -10,3 +10,4 @@ window.setInterval
 window.setTimeout
 window.clearTimeout
 */
+
