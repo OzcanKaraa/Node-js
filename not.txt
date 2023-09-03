@@ -1,5 +1,7 @@
 node app.js
 npm list -g --depth 0
-npm i -g live-server (wındows)
+npm i -g live-server (windows)
 sudo npm i -g live-server (mac)
 live-server
+
+Global Object 
