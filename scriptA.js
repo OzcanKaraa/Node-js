@@ -1,2 +1,2 @@
-var name = 'Ozcan';
-console.log(name);
+var fname = 'Ozcan';
+console.log(fname);

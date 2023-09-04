@@ -1,6 +1,10 @@
-//var Lname = 'Kara';
+var Lname = 'Kara';
+console.log(Lname);
+console.log(fname);
+
+
 //console.log(global.Lname);
-console.log(global);
+//console.log(global);
 // console.log(window);
 
 
