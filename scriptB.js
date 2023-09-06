@@ -1,6 +1,6 @@
-var Lname = 'Kara';
-console.log(Lname);
-console.log(fname);
+var lastname = 'Kara';
+console.log(lastname);
+
 
 
 //console.log(global.Lname);
@@ -17,7 +17,7 @@ window.clearTimeout
 
 
 //IIFE
-var controller B = (function () {
+/*var controller B = (function () {
     //scopeB
     var lastname = 'Kara';
     return{
@@ -27,3 +27,4 @@ var controller B = (function () {
 
 console.log(controllerA.firstname);
 console.log(controllerA.lastname);
+*/
