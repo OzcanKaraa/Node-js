@@ -4,6 +4,8 @@ var firstname = 'Ozcan';
 
 /*console.log(fname);
 
+
+
 //IIFE
 var controller A = (function () {
     //scopeA
