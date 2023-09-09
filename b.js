@@ -29,3 +29,8 @@ window.clearTimeout
 console.log(controllerA.firstname);
 console.log(controllerA.lastname);
 */
+
+
+const a = require('./a');
+a.log('karaa');
+console.log(a.name);
