@@ -1,3 +1,1 @@
-var firstname = 'Ozcan';
-console.log(firstname);
-console.log(window);
+const path = require('path');
