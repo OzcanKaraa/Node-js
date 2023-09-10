@@ -1,3 +1,6 @@
+//GLOBAL OBJE
+
+
 //Tarayici
 
 //var lastName = 'Kara';
