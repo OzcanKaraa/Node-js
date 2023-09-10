@@ -1,8 +1,6 @@
-const path = require('path');
+//Global Obje
+//console.log(window);  Window objesi ile farkli dosyalardan da calistirilabilir.
 
-let result = path.resolve('app.js');
-console.log(result);
-console.log(result.dir);
-console.log(result.ext);
-console.log(result.name);
-console.log(result.base);
+var firstName = 'Ozcan';
+console.log(firstName);
+console.log(window);
