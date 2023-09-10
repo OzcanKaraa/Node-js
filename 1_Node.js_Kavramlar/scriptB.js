@@ -1,8 +1,5 @@
 //GLOBAL OBJE
 
-
-//Tarayici
-
 //var lastName = 'Kara';
 //console.log(lastName);
 
@@ -19,10 +16,6 @@ Window.setTimeout(() => {
 window.clearTimeout
 */
 
-//NodeJS
-
-//Global
-
 //var lastName = 'Kara';
 //console.log(global.lastName);
-console.log(global);
+//console.log(global);
