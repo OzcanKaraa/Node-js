@@ -1,1 +1,4 @@
 node app.js
+npm init
+npm init --yes
+npm i underscore
