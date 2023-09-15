@@ -57,7 +57,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node appp.js",
+    "start": "nodeman appp.js",
+    "start-server":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -10,3 +10,7 @@ npm list -g                    Global yuklu Tum paketler
 npm list -g --depth 0          Global yuklu Paket isimleri
 npm unistall jquery            Paket silme
 "webpack": "^5.88.2"           major.minor.patch
+
+npm start     
+npm run start-run
+npm install nodemon --save-dev
