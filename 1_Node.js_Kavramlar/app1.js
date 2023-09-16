@@ -1,3 +1,8 @@
+console.log("Hello World");
+var name = "Ozcan Kara";
+
+
+
 //Global Obje
 //console.log(window);  Window objesi ile farkli dosyalardan da calistirilabilir.
 /*
