@@ -1,7 +1,7 @@
+NodeJS:
+---------------------------------------------------------------------------------------
 node --version 
 node --version 
-
-
 node app.js
 npm init
 npm init --yes
@@ -12,7 +12,7 @@ npm i webpack --save-dev
 npm i live-server --global 
 npm list -g                    Global yuklu Tum paketler
 npm list -g --depth 0          Global duzeyde yuklu tum paketler listeler
-npm i -g  live-server         Global olarak yukleme live-server
+npm i -g  live-server          Global olarak yukleme live-server
 npm install -g  live-server  
 npm unistall jquery            Paket silme
 "webpack": "^5.88.2"           major.minor.patch
@@ -21,9 +21,12 @@ npm run start-run
 npm install nodemon --save-dev
 live-server
 live-server public
---------------------------------------------
+-------------------------------------------------
 ExpressJs :
+--------------
 npm init --yes
 npm install express
+npm install nodemon -g
+npm start
 
 
