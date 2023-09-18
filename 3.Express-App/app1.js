@@ -1,9 +1,8 @@
 /*
-
 Middleware : Codding fonksiyonu parametre alarak (request,response,next) parametreleri geriye response dondurme.
 Next fonksiyonu ile middleware gecisleri saglanir.Request response surecleri gerceklesir.Response ile sureci sonlandirilabilir.
-
 */
+
 const express = require('express');
 const app = express();
 
