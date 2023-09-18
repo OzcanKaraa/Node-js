@@ -1,8 +1,16 @@
 const express = require('express');
+const app = express();
 const router = express.Router();
 
-//  /admin/add-product => GET
-app.get('/add-product',(req,res,next)=>{
+const path = require('path'); //Path 
+
+//  /admin/add-product => GET  views
+router.get('/add-product',(req,res,next)=>{
+    res.sendFile(path.join(__dirname,'../','views','add-product'));
+});
+
+//  /admin/add-product => GET Routers
+/*app.get('/add-product',(req,res,next)=>{
     res.send(`
     <html>
             <head><title>Add a new Product</title></head>
@@ -15,6 +23,7 @@ app.get('/add-product',(req,res,next)=>{
     </html>
     `);
 });
+*/
 
 //  /admin/add-product => POST
 app.post('/add-product',(req,res,next)=>{
@@ -22,4 +31,5 @@ app.post('/add-product',(req,res,next)=>{
     res.redirect('/');
 });
 
+module.exports = app;
 module.exports = router;
