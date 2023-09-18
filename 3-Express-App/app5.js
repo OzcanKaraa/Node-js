@@ -1,1 +1,1 @@
-//404 Error Sayfası
+//Html Sayfa Gönderimi

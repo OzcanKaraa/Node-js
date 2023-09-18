@@ -1,39 +1,24 @@
 //Express Router
 
-//Body Parser
-
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const adminRoutes = require('./routes/admin');
+const userRoutes = require('./routes/user');
 app.use(bodyParser.urlencoded({extended:false}));
+//routes
+app.use('admin',adminRoutes);
+app.use('admin',userRoutes);
 
-  app.use('/add-product',(req,res,next)=>{
-    res.send('<h1>adding product page </h1>');
+//Error Sayfasi (404)
+app.use((req,res)=>{
+    res.status(404).send('<h1>Page not found</h1>');
+    
+    /*res.status(404);
+    res.send('<h1>Page not found</h1>');
+    */
 });
 
-app.get('/add-product',(req,res,next)=>{
-    res.send(`
-    <html>
-            <head><title>Add a new Product</title></head>
-                <body>
-                    <form action="/product" method= "Post">
-                        <input type = "text" name = "productName">
-                        <input type = "submit" value = "Save Product">
-                     </form>
-                </body>
-    </html>
-    `);
-});
-
-
-app.post('/product',(req,res,next)=>{
-    console.log(req.body); //database kayit
-    res.redirect('/');
-});
-
-app.get('/',(req,res,next)=>{
-    res.send('<h1>hello from express.js</h1>');
-});
 
 app.listen(3000,()=>{
     console.log("Server is running on port 3000");
