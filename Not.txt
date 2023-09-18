@@ -32,7 +32,7 @@ npm install body-parser
 
 
 --Bootstrap--
-.container  =>   <div class="container"></div>
-a.navbar-brand =><a href="" class="navbar brand"></a>
-ul.navbar-nav => <ul class="navbar-nav"></ul>  
+.container     =>  <div class="container"></div>
+a.navbar-brand =>  <a href="" class="navbar brand"></a>
+ul.navbar-nav  =>  <ul class="navbar-nav"></ul>  
 
