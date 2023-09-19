@@ -1,16 +1,13 @@
 //Http Module
-/*const http = require('http');
+const http = require('http');
 const server = http.createServer();
 server.on('connection',function(){
 console.log('new connection');
 });
 server.listen(3000);
 console.log('Listening port on 3000');
-*/
 
-
-//Request objeleri ozellikleri 
-/*
+//Request objeleri ozellikleri
 const http = require('http');
 const server = http.createServer((req,res)=>{
     console.log(req);
@@ -18,15 +15,12 @@ const server = http.createServer((req,res)=>{
 server.listen(3000);
 console.log('Listening port on 3000');
 
-
-
 const http = require('http');
 const server = http.createServer((req,res)=>{
      console.log(req.url,req.method);
 });
 server.listen(3000);
 console.log('Listening port on 3000');
-*/
 
 
 const http = require('http');
@@ -45,7 +39,6 @@ console.log('Listening port on 3000');
 
 
 //Sending Response
-/*
 const http = require('http');
 const server = http.createServer((req,res)=>{
     res.setHeader('Content-Type','text/plain');
@@ -57,10 +50,7 @@ const server = http.createServer((req,res)=>{
 server.listen(3000);
 console.log('Listening port on 3000');
 
-*/
-
 //Json
-/*
 const http = require('http');
 const server = http.createServer((req,res)=>{
     res.setHeader('Content-Type','application/json');
@@ -71,12 +61,10 @@ const server = http.createServer((req,res)=>{
 });
 server.listen(3000);
 console.log('Listening port on 3000');
-*/
+
 
 
 //Html
-
-/*
 const http = require('http');
 const server = http.createServer((req,res)=>{
     res.setHeader('Content-Type','text/html');
@@ -90,7 +78,7 @@ const server = http.createServer((req,res)=>{
 });
 server.listen(3000);
 console.log('Listening port on 3000');
-*/
+
 
 
 
