@@ -79,9 +79,6 @@ const server = http.createServer((req,res)=>{
 server.listen(3000);
 console.log('Listening port on 3000');
 
-
-
-
 const http = require('http');
 const fs = require('fs');
 const server = http.createServer((req,res)=>{
@@ -102,7 +99,6 @@ const server = http.createServer((req,res)=>{
 
 
 //Routing Request
-
 const http = require('http');
 const fs = require('fs');
 const server = http.createServer((req,res)=>{
@@ -139,7 +135,6 @@ console.log('Listening port on 3000');
 
 
 //Parsing Request Body
-
 const http = require('http');
 const fs = require('fs');
 const qs = require('querystring');
@@ -185,7 +180,6 @@ const server = http.createServer((req,res)=>{
        return  res.end();
     } 
 });
-
 server.listen(3000);
 console.log('Listening port on 3000');
 
@@ -197,7 +191,6 @@ const server = http.createServer(routes);
 server.listen(3000);
 console.log('Listening port on 3000');
 
-
 //Events
 const EventEmitter = require('events');
 class logger extends EventEmitter{
@@ -207,8 +200,6 @@ class logger extends EventEmitter{
     }
 }
 module.exports = logger;
-
-
 
 //Route Module
 const fs = require('fs');
@@ -239,8 +230,7 @@ const routeHandler = (req,res) => {
         res.statusCode=302;
         res.setHeader('Location','/');
        return  res.end();
-    } 
-
+    }
 }
 module.exports = routeHandler;
 
