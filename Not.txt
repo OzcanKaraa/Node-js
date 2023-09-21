@@ -30,7 +30,6 @@ npm install nodemon -g
 npm start
 npm install body-parser
 
-
 --Bootstrap--
 .container     =>  <div class="container"></div>
 a.navbar-brand =>  <a href="" class="navbar brand"></a>
