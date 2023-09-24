@@ -34,9 +34,9 @@ npm install body-parser
 a.navbar-brand =>  <a href="" class="navbar brand"></a>
 ul.navbar-nav  =>  <ul class="navbar-nav"></ul>  
 .col-lg-3       => <div class="col-lg-3"></div>
-  .list-group    <div class="list-group"></div>
-  a.list-group-item =>  <a href="" class="list-group-item"></a>
-  div.carousel-inner =>  <div class="carousel-inner"></div>
+.list-group      => <div class="list-group"></div>
+a.list-group-item =>  <a href="" class="list-group-item"></a>
+div.carousel-inner =>  <div class="carousel-inner"></div>
 .carousel-item
- a.carousel-control-prev       <a href="" class="carousel-control-prev"></a>
- ol.carousel-indicators  <ol class="carousel-indicators"></ol>
+a.carousel-control-prev    =>   <a href="" class="carousel-control-prev"></a>
+ol.carousel-indicators  =>        <ol class="carousel-indicators"></ol>
