@@ -37,6 +37,15 @@ ul.navbar-nav  =>  <ul class="navbar-nav"></ul>
 .list-group      => <div class="list-group"></div>
 a.list-group-item =>  <a href="" class="list-group-item"></a>
 div.carousel-inner =>  <div class="carousel-inner"></div>
-.carousel-item
+.carousel-item     =>   <div class="carousel-item"></div>
 a.carousel-control-prev    =>   <a href="" class="carousel-control-prev"></a>
 ol.carousel-indicators  =>        <ol class="carousel-indicators"></ol>
+.row
+.col-md4
+.card
+.img.card-img-top
+.card-body
+.card-footer
+h4.card-title
+p.card-text
+lorem4
